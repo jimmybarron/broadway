@@ -1,4 +1,4 @@
-.flatIronBG {
+.flatIronBg {
     background-image: url("../resources/the-flatiron-building.png");
     background-size: cover;
     text-align: center;
@@ -8,6 +8,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 h1 {
@@ -32,4 +33,23 @@ h2 {
 h3 {
     font-size: 23px;
     font-weight: bold;
+}
+
+#designedNYC {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+
+}
+
+#bottomNav {
+    font-size: 11px;
+    color: white;
+    background-color: dimgray;
+    text-align: left;
+}
+
+#bottomNav a{
+    font-size: 18px;
+    color: white;
 }
